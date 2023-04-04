@@ -21,9 +21,11 @@ const signup = () => {
                 'Content-Type':'application/json'
             },
             body:JSON.stringify({
-                hostelName:e.target[0].value,
-                email:e.target[1].value,
-                password:e.target[2].value
+                name:e.target[0].value,
+                employeeNumber:e.target[1].value,
+                email:e.target[2].value,
+                contact:e.target[3].value,
+                password:e.target[4].value,
             })
         })
 
@@ -41,8 +43,10 @@ const signup = () => {
         <h2>create admin</h2>
         </center>
         <form style={{display:'flex',alignItems:'center',justifyContent:'center',flexDirection:'column'}} className={styles.formContainer} onSubmit={handleSubmit}>
-            <input style={{width:'50%'}} type='text' name='hostelName' placeholder='hostel name' />
-            <input style={{width:'50%'}} type='email' name='hostelEmail' placeholder='hostel email' />
+            <input style={{width:'50%'}} type='text' name='name' placeholder='admin name' />
+            <input style={{width:'50%'}} type='text' name='employeeNumber' placeholder='admin employee number' />
+            <input style={{width:'50%'}} type='email' name='email' placeholder='hostel email' />
+            <input style={{width:'50%'}} type='text' name='contact' placeholder='mobile number' />
             <input style={{width:'50%'}} type='password' name="password" placeholder='hostel password' />
             <Button variant="outlined" color="success" type="submit" style={{marginTop:'20px'}}>create admin</Button>
         </form>

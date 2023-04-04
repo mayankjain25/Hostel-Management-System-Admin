@@ -20,10 +20,6 @@ const adminSchema= new Schema({
         type:Number,
         required:true
     },
-    hostelName:{
-        type:String,
-        required:true
-    },
     password:{
         type:String,
         required:true
@@ -31,4 +27,4 @@ const adminSchema= new Schema({
 
 })
 
-module.exports = mongoose.models.Admin || mongoose.model('Admin',userSchema) //check if 'User' model is already defined, if not, then it explicitly defines it
+module.exports = mongoose.models.Admin || mongoose.model('Admin',adminSchema) //check if 'User' model is already defined, if not, then it explicitly defines it

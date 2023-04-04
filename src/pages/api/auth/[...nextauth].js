@@ -22,6 +22,7 @@ export const authOptions = {
             connect()
             console.log('entered author function')
             const {email,password} = credentials
+            
 
             const user1 = await Admin.findOne({email,password})
             console.log('user1',user1)

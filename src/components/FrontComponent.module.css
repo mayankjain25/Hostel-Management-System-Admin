@@ -3,8 +3,9 @@
     left:50%;
     transform: translate(-50%,-50%);
     position: absolute;
-    /* background-color: #f5f5f5; */
+    
 }
+
 
 .mainText{
     animation: slow-reveal 1.5s ease-in-out;

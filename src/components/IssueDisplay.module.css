@@ -1,0 +1,55 @@
+.issueDisplayContainer{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.action-item-form{
+    color:red !important;
+}
+
+.profileContainer{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.profileCard{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    border:1px solid red;
+    width:fit-content;
+    padding:20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 1px -1px 4px 2px #000;
+    transition:0.3s;
+}
+
+.profileCard:hover{
+    box-shadow: -3px 1px 5px 3px #5A5A5A;
+}
+
+.actionItem{
+    transition: 0.4s ease-in-out;
+    background-color: #e21143;
+}
+
+.actionItem:hover{
+    cursor:pointer;
+    background-color: #c93861;
+    text-decoration: underline;
+    ;
+}
+
+
+.profileContainer{
+    text-align:left;
+}
+
+.text-bold{
+    font-weight: bold;
+}

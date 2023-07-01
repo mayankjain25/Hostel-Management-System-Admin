@@ -12,10 +12,12 @@
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/material": "^5.11.16",
+    "axios": "^1.4.0",
     "mongoose": "^7.0.3",
     "next": "13.2.4",
     "next-auth": "^4.21.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1"
   }
 }

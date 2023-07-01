@@ -15,7 +15,7 @@ const signup = () => {
         console.log(e)
         console.log('submit clicked')
         setLoading(true)
-        const res = await fetch('http://localhost:5001/admin/createAdmin',{
+        const res = await fetch('https://hms-backend-89o3.onrender.com/admin/createAdmin',{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'

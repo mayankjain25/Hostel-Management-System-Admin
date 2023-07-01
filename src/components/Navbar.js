@@ -16,7 +16,7 @@ const Navbar = ({email,logOut,admin}) => {
         </div>
           <div style={{display:'flex',alignItems:'center',justifyContent:"center"}}>
           <p>{email}</p>
-          {logOut && <Button variant="outlined" color="error" onClick={()=>admin?signOut({callbackUrl: 'http://localhost:3000/'}):signOut()} style={{marginLeft:'10px'}}>logout</Button>}
+          {logOut && <Button variant="outlined" color="error" onClick={()=>admin?signOut({callbackUrl: '/'}):signOut()} style={{marginLeft:'10px'}}>logout</Button>}
 
           </div>
     </div>

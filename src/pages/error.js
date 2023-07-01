@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Warning from '/home/mayank/Desktop/projects/hms/hms-admin/src/assets/warning.svg'
+import Warning from 'src/assets/warning.svg'
 
 const error = () => {
   return (

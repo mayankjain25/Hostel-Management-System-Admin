@@ -11,7 +11,7 @@ const error = () => {
         <Head>
             <title>Error Occurred</title>
         </Head>
-        <center>
+        <center>https://i.postimg.cc/5t5F6jfD/Screenshot-from-2023-07-01-13-54-55.png
           
                 <Image src={Warning} width={100} height={100}></Image>
                 <h2>sigh! an error occurred</h2>
